@@ -9,20 +9,18 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'diff_seeker'
+gem 'diff_seeker', '0.1.1', git: 'git@github.com:LartDev/diff_seeker.git'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install diff_seeker
-
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+puts DiffSeeker.compare(path_to_original_file, path_to_another_file)
+```
 
 ## Development
 
